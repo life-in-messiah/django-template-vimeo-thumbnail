@@ -1,4 +1,4 @@
-# django-vimeo-utils
+# django-vimeo-utils  [![Build Status](https://travis-ci.org/life-in-messiah/django-vimeo-utils.svg?branch=master)](https://travis-ci.org/life-in-messiah/django-vimeo-utils)  
 Vimeo-related shortcuts for Django
 
 ## Installation
