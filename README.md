@@ -3,7 +3,7 @@ Vimeo-related shortcuts for Django
 
 ## Installation
 1.  
-  * `pip install --user django-vimeo-utils`  
+  * `pip install --user vimeo_utils`  
   * OR you can download and unzip the .tar.gz package and then run `python setup.py install` inside the unzipped directory
 2. Add "vimeo_utils" to your `INSTALLED_APPS` setting like this:
 ```
