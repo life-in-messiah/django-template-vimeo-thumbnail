@@ -1,5 +1,7 @@
-# django-vimeo-utils  [![Build Status](https://travis-ci.org/life-in-messiah/django-vimeo-utils.svg?branch=master)](https://travis-ci.org/life-in-messiah/django-vimeo-utils)  
+# django-vimeo-utils  
 Vimeo-related shortcuts for Django
+
+[![Build Status](https://travis-ci.org/life-in-messiah/django-vimeo-utils.svg?branch=master)](https://travis-ci.org/life-in-messiah/django-vimeo-utils) [![PyPI version](https://badge.fury.io/py/vimeo_utils.svg)](https://badge.fury.io/py/vimeo_utils) ![Versions Supported](https://img.shields.io/badge/Python-2.7%2C%203.4%2C%203.5%2C%20pypy-brightgreen.svg)
 
 ## Installation
 1.  
