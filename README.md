@@ -24,6 +24,7 @@ Usage: `{% vimeo_embed_responsive vimeo_id %}`
 Note: `vimeo_id` is a string, not an integer  
 Example:
 ```
+{% load vimeo_embed_responsive %}
 <div class="container">
 <h1>Scott Schwartz</h1>
 {% vimeo_embed_responsive "144912687" %}
@@ -36,6 +37,7 @@ Usage: `{% vimeo_thumbnail vimeo_id %}`
 Note: `vimeo_id` is a string, not an integer  
 Example:
 ```
+{% load vimeo_thumbnail %}
 <div class="container">
   <h1>Scott Schwartz</h1>
   <h3>The man. The legend.</h3>
