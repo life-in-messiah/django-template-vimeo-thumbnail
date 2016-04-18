@@ -2,7 +2,7 @@
 Vimeo-related shortcuts for Django
 
 [![Build Status](https://travis-ci.org/life-in-messiah/django-vimeo-utils.svg?branch=master)](https://travis-ci.org/life-in-messiah/django-vimeo-utils)
-[![PyPI](https://img.shields.io/pypi/dm/vimeo_utils.svg)]()
+[![PyPI](https://img.shields.io/pypi/dw/vimeo_utils.svg)]()
 ![Versions Supported](https://img.shields.io/pypi/pyversions/vimeo_utils.svg)
 [![PyPI version](https://img.shields.io/pypi/v/vimeo_utils.svg)](https://pypi.python.org/pypi/vimeo_utils/)
 
@@ -24,6 +24,7 @@ Usage: `{% vimeo_embed_responsive vimeo_id %}`
 Note: `vimeo_id` is a string, not an integer  
 Example:
 ```
+{% load vimeo_embed_responsive %}
 <div class="container">
 <h1>Scott Schwartz</h1>
 {% vimeo_embed_responsive "144912687" %}
@@ -36,6 +37,7 @@ Usage: `{% vimeo_thumbnail vimeo_id %}`
 Note: `vimeo_id` is a string, not an integer  
 Example:
 ```
+{% load vimeo_thumbnail %}
 <div class="container">
   <h1>Scott Schwartz</h1>
   <h3>The man. The legend.</h3>
