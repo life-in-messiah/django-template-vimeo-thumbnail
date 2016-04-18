@@ -3,13 +3,13 @@ from setuptools import setup
 
 setup(
     name='vimeo_utils',
-    version='0.1',
+    version='0.1.1',
     packages=['vimeo_utils'],
     include_package_data=True,
     license='MIT License',
     description='Vimeo-related shortcuts for Django',
     url='https://github.com/life-in-messiah/django-vimeo-utils',
-    download_url = 'https://github.com/life-in-messiah/django-vimeo-utils/tarball/0.1',
+    download_url = 'https://github.com/life-in-messiah/django-vimeo-utils/tarball/0.1.1',
     author='Joshua Austin',
     author_email='joshthetechie@outlook.com',
     classifiers=[
