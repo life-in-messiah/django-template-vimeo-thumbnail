@@ -4,7 +4,7 @@ import requests
 register = template.Library()
 
 
-@register.simple_tag
+@register.simple_tag(name='vimeo_thumbnail')
 def vimeo_thumbnail(vimeo_id):
     prefix = "https://vimeo.com/api/oembed.json?url=https%3A//vimeo.com/"
     url = prefix + vimeo_id

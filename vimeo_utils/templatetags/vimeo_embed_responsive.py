@@ -5,7 +5,7 @@ import requests
 register = template.Library()
 
 
-@register.simple_tag
+@register.simple_tag(name='vimeo_embed_responsive')
 def vimeo_embed_responsive(vimeo_id):
     return mark_safe("\
     <style>\
