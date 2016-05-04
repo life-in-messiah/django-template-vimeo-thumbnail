@@ -2,7 +2,7 @@
 Vimeo-related shortcuts for Django
 
 [![Build Status](https://travis-ci.org/life-in-messiah/django-vimeo-utils.svg?branch=master)](https://travis-ci.org/life-in-messiah/django-vimeo-utils)
-[![PyPI](https://img.shields.io/pypi/dw/vimeo_utils.svg)]()
+[![PyPI](https://img.shields.io/pypi/dm/vimeo_utils.svg)]()
 ![Versions Supported](https://img.shields.io/pypi/pyversions/vimeo_utils.svg)
 [![PyPI version](https://img.shields.io/pypi/v/vimeo_utils.svg)](https://pypi.python.org/pypi/vimeo_utils/)
 
